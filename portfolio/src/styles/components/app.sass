@@ -1,4 +1,5 @@
 @use '../variables'
+@use '../mixins'
 
 #portfolio
     display: flex
@@ -13,3 +14,7 @@
         background: variables.$gradient
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
+
+        @include mixins.mobile
+            font-size: 3rem
+        

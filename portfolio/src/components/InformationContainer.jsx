@@ -26,7 +26,6 @@ const InformationContainer = () => {
                     <p>Araucária / PR</p>
                 </div>
             </div>
-            
         </section>
     )
 }
